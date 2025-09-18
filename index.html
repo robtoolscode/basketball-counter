@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container hld">
+            <div class="display-container">
+                <h3 class="player-name">HOME</h3>
+                <div class="count-display">
+                    <h4 class="displayed-count" id="home-count-el">0</h4>
+                </div>
+                <div class="btn-container">
+                    <button class="btn" onclick="countHomePointsUpOne()">+1</button>
+                    <button class="btn" onclick="countHomePointsUpTwo()">+2</button>
+                    <button class="btn" onclick="countHomePointsUpThree()">+3</button>
+                </div>
+            </div>
+            <div class="display-container">
+                <h3 class="player-name">GUEST</h3>
+                <div class="count-display">
+                    <h4 class="displayed-count" id="guest-count-el">0</h4>
+                </div>
+                <div class="btn-container">
+                    <button class="btn" onclick="countGuestPointsUpOne()">+1</button>
+                    <button class="btn" onclick="countGuestPointsUpTwo()">+2</button>
+                    <button class="btn" onclick="countGuestPointsUpThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
